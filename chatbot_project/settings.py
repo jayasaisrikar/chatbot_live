@@ -77,14 +77,13 @@ WSGI_APPLICATION = 'chatbot_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'chatbot',
+        'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': '1234',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'PASSWORD': 'UhTDTWKZDWwcpZBPveFPqwXbBDzljefs',
+        'HOST': 'monorail.proxy.rlwy.net',
+        'PORT': '40953',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
